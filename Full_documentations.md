@@ -75,7 +75,7 @@ docker --version
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/data-guru0/MULTI-AI-AGENT-PROJECTS.git
+https://github.com/DeepakYadav9892/MULTI-AI-AGENT-PROJECTS.git
 cd MULTI-AI-AGENT-PROJECTS
 ```
 
