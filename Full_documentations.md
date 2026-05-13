@@ -211,6 +211,7 @@ ln -s /usr/bin/python3 /usr/bin/python
 python --version
 apt install -y python3-pip
 exit
+
 ```
 
 ### 10. Restart Jenkins Container
