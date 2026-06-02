@@ -1,13 +1,11 @@
 {
   "version": 2,
+  "functions": {
+    "app/main.py": { "runtime": "python3.11" },
+    "app/backend/api.py": { "runtime": "python3.11" }
+  },
   "rewrites": [
-    { 
-      "source": "/api/(.*)", 
-      "destination": "app/backend/api.py" 
-    },
-    { 
-      "source": "/(.*)", 
-      "destination": "app/main.py" 
-    }
+    { "source": "/api/(.*)", "destination": "app/backend/api.py" },
+    { "source": "/(.*)", "destination": "app/main.py" }
   ]
 }
